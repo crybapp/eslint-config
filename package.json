@@ -1,0 +1,45 @@
+{
+  "name": "@cryb/eslint-config",
+  "version": "1.0.0",
+  "description": "Shared ESLint config for Cryb projects",
+  "author": "JeDaYoshi <hi@jeda.im>",
+  "homepage": "https://github.com/crybapp/eslint-config",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js",
+    "lint:fix": "eslint --fix index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crybapp/eslint-config.git"
+  },
+  "bugs": "https://github.com/crybapp/eslint-config/issues",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "eslint-config-standard-with-typescript": "^21.0.1",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jsdoc": "^36.1.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-promise": "^5.1.0"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "typescript": "4.4.4"
+  },
+  "peerDependencies": {
+    "eslint": "^7.12.1",
+    "typescript": "*"
+  },
+  "keywords": [
+    "cryb",
+    "eslint",
+    "eslintconfig",
+    "internal"
+  ]
+}
